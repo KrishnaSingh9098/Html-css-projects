@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --purple500 : #281154;
+   --purple300: #270082;
+   --purple600 : #1b0058;
+   --red600:#dc0000;
+   --body : #f9f6ff;
+
+}
+
+html,body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--purple500);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+nav ul li{
+    border-bottom: 0px solid transparent;
+    transition: 0.2 ease-in;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+transition: 0.2 ease-in;
+}
+
+.hero-section{
+background-image: url(hero_image.png);
+height: 100vh;
+display: grid;
+color: white;
+place-items: center;
+text-align: center;
+}
+
+.hero-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.hero-section h1 {
+    font-size: 96px;
+}
+.hero-section h3 {
+    font-size: 42px;
+}
+
+.music-section{
+    padding-top: 55px;
+    background:var(--purple500);
+
+}
+
+.music-section .container{
+display: flex;
+flex-direction: column;
+gap: 30px;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.ipad-iphone-img{
+    position: relative;
+    top: 400px;
+    margin-top:-400px ;
+
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2 ease-in-out;
+    
+}
+
+button:hover{
+    background-color:red;
+    opacity: 0.8;
+    transition: 0.2 ease-in-out;
+}
+.primary-btn{
+    background-color: var(--red);
+    color: white;
+}
+.secondary-btn{
+    background-color: var(--purple300);
+    color: white;
+}
