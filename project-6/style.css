@@ -78,25 +78,6 @@ html,body{
     background-position: center;
 }
 
-/* #vertical-text{
-    position: absolute;
-    width: 100%;
-    transform: rotate(90deg);
-    right: 0%;
-    transform-origin: 0% 0%;
-    /* background-color: red; */
-/* } */ 
-
-/* #vertical-text h1{
-    font-size: 70px;
-    font-weight: 900;
-    color: transparent;
-    letter-spacing: 10px;
-    font-family: monument;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #fff;
-} */
-
 
 #vertical-text{
     position: absolute;
