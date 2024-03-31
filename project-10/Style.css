@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#mmain{
+    /* display: flex;
+    justify-content: center;
+align-items: center; */
+    height: 100%;
+    width: 100%;
+    background-color:#dadada;
+}
+
+#center{
+    width: 70%;
+    height: 80%;
+    background-color: black;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.container{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    /* background-color: #fff; */
+    
+}
+
+img{
+width: 100%;
+height: 100%;
+/* object-fit: cover; */
+}
+
+
+#one{
+    width: 0%;
+}
+.text{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    overflow: hidden;
+    z-index: 999;
+    background-color: red;
+    width: 400px;
+    height: 60px;
+}
+
+.text h1{
+    font-size: 6vw;
+    position: relative;
+}
